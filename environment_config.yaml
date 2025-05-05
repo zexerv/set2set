@@ -1,0 +1,79 @@
+aruco_device:
+  name: aruco_thrusmaster_base
+  pose:
+    position: &id001
+      - 0.181359
+      - -0.384114
+      - 0.182239
+    quaternion: &id002
+      - -0.29474592834228164
+      - 0.6490430455678575
+      - 0.636840657676819
+      - -0.2937714860393884
+    frame: base
+    frame_id: base
+  matrix:
+    -   - -1.0
+        - 0.0
+        - 0.0
+        - -0.4
+    -   - 0.0
+        - 0.0
+        - 1.0
+        - -0.5
+    -   - 0.0
+        - 1.0
+        - 0.0
+        - 0.1
+    -   - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+collision_objects:
+  thrustmaster_inner:
+    type: mesh
+    pose:
+      frame_id: base
+      position: *id001
+      quaternion: *id002
+    mesh:
+      package: execution_manager
+      file_path: obj/inner_th.stl
+      scale:
+        - 0.001
+        - 0.001
+        - 0.001
+    relative_offset: [-0.04, -0.04, 0.0] 
+    relative_rpy_deg: [-90, -90, 0] 
+  thrustmaster_outer:
+    type: mesh
+    pose:
+      frame_id: base
+      position: *id001
+      quaternion: *id002
+    mesh:
+      package: execution_manager
+      file_path: obj/outer_th.stl
+      scale:
+        - 0.001
+        - 0.001
+        - 0.001
+    relative_offset: [-0.04, -0.04, 0.0] 
+    relative_rpy_deg: [-90, -90, 0] 
+  wall_behind:
+    type: box
+    pose:
+      frame_id: world
+      position:
+        - -0.8
+        - 0.0
+        - 0.5
+      quaternion:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+    dimensions:
+      - 0.1
+      - 2.0
+      - 1.0

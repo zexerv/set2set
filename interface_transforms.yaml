@@ -1,0 +1,509 @@
+# --- Mapped Button Interfaces ---
+
+# Original YAML key: button_2
+# Maps to index 2 in EXPECTED_BUTTON_CODES -> code 292
+button_292:
+  T_aruco_interface: # [Matrix value from original button_2]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14524939114300578
+  - - 0.0
+    - 1.0
+    - 0.0
+    - -0.003370094882870586
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.06965164121596658
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: button_3
+# Maps to index 3 in EXPECTED_BUTTON_CODES -> code 293
+button_293:
+  T_aruco_interface: # [Matrix value from original button_3]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1461600780357896
+  - - 0.0
+    - 1.0
+    - 0.0
+    - -0.003661780606894441
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11321710317981987
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: button_4
+# Maps to index 4 in EXPECTED_BUTTON_CODES -> code 704
+button_704:
+  T_aruco_interface: # [Matrix value from original button_4]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.10481329219879243
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.0002888242505940247
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.012299737059673745
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: button_5_and_6
+# Maps to index 5 (code 705) and index 6 (code 706)
+button_705:
+  T_aruco_interface: # [Matrix value from original button_5_and_6]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.10627136093402606
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.012610949807423994
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.032129147470563106
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+button_706:
+  T_aruco_interface: # [Matrix value from original button_5_and_6 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.10627136093402606
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.012610949807423994
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.032129147470563106
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+
+# --- Mapped Switch Interfaces ---
+
+# Original YAML key: switch_0
+# Maps to index 0 in EXPECTED_SWITCH_CODES -> code 290
+switch_290:
+  T_aruco_interface: # [Matrix value from original switch_0]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.12455110636498269
+  - - 0.0
+    - 1.0
+    - 0.0
+    - -0.0031959026541902983
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.06893620253155809
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: switch_1
+# Maps to index 1 in EXPECTED_SWITCH_CODES -> code 291
+switch_291:
+  T_aruco_interface: # [Matrix value from original switch_1]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.12533102031381005
+  - - 0.0
+    - 1.0
+    - 0.0
+    - -0.00275697992800243
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11206340531918928
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: knob_2_and_3
+# Maps to index 2 (code 294) and index 3 (code 295)
+switch_294:
+  T_aruco_interface: # [Matrix value from original knob_2_and_3]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14978017405141433
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.009931283844710922
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.09182048639214509
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_295:
+  T_aruco_interface: # [Matrix value from original knob_2_and_3 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14978017405141433
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.009931283844710922
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.09182048639214509
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: lever_4_7 -> Also applies to switches at indices 4,5,6,7
+switch_296: # Corresponds to index 4
+  T_aruco_interface: # [Matrix value from original lever_4_7 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06360197057129817
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017508293942036096
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.07108116000085608
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_297: # Corresponds to index 5
+  T_aruco_interface: # [Matrix value from original lever_4_7 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06360197057129817
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017508293942036096
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.07108116000085608
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_298: # Corresponds to index 6
+  T_aruco_interface: # [Matrix value from original lever_4_7 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06360197057129817
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017508293942036096
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.07108116000085608
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_299: # Corresponds to index 7
+  T_aruco_interface: # [Matrix value from original lever_4_7 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06360197057129817
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017508293942036096
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.07108116000085608
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: lever_8_11 -> Also applies to switches at indices 8,9,10,11
+switch_300: # Corresponds to index 8
+  T_aruco_interface: # [Matrix value from original lever_8_11 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06430789377962295
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017630220796004327
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11434761950622607
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_301: # Corresponds to index 9
+  T_aruco_interface: # [Matrix value from original lever_8_11 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06430789377962295
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017630220796004327
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11434761950622607
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_302: # Corresponds to index 10
+  T_aruco_interface: # [Matrix value from original lever_8_11 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06430789377962295
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017630220796004327
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11434761950622607
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_303: # Corresponds to index 11
+  T_aruco_interface: # [Matrix value from original lever_8_11 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06430789377962295
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017630220796004327
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11434761950622607
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: knob_12
+# Maps to index 12 in EXPECTED_SWITCH_CODES -> code 707
+switch_707:
+  T_aruco_interface: # [Matrix value from original knob_12]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14847281200134943
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.009655770774068687
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.023274967410059584
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: switch_13
+# Maps to index 13 in EXPECTED_SWITCH_CODES -> code 708
+switch_708:
+  T_aruco_interface: # [Matrix value from original switch_13]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14847281200134943
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.009655770774068687
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.023274967410059584
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: knob_14_18
+# Maps to indices 14-18 -> codes 709, 710, 711, 712, 713
+switch_709: # Corresponds to index 14
+  T_aruco_interface: # [Matrix value from original knob_14_18]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1429354523466852
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.010180557765821177
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.16220903157279482
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_710: # Corresponds to index 15
+  T_aruco_interface: # [Matrix value from original knob_14_18 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1429354523466852
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.010180557765821177
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.16220903157279482
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_711: # Corresponds to index 16
+  T_aruco_interface: # [Matrix value from original knob_14_18 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1429354523466852
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.010180557765821177
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.16220903157279482
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_712: # Corresponds to index 17
+  T_aruco_interface: # [Matrix value from original knob_14_18 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1429354523466852
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.010180557765821177
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.16220903157279482
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+switch_713: # Corresponds to index 18
+  T_aruco_interface: # [Matrix value from original knob_14_18 (Shared)]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1429354523466852
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.010180557765821177
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.16220903157279482
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+
+# --- Mapped Lever Interfaces ---
+
+# Original YAML key: lever_4_7
+# Refers to Lever Code 0 (Index 0)
+lever_0:
+  T_aruco_interface: # [Matrix value from original lever_4_7]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06360197057129817
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017508293942036096
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.07108116000085608
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Original YAML key: lever_8_11
+# Refers to Lever Code 1 (Index 1)
+lever_1:
+  T_aruco_interface: # [Matrix value from original lever_8_11]
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.06430789377962295
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.017630220796004327
+  - - 0.0
+    - 0.0
+    - 1.0
+    - -0.11434761950622607
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+# Lever codes 2 and 5 are intentionally omitted as requested.
+
+
+# Missing from original YAML (identified by type_index): 
+# button_0, button_1, on the levers 
+# switch_19, switch_20, switch_21, switch_22, switch_23 on the right lever
+# lever_2, lever_3 intentionally excluded
